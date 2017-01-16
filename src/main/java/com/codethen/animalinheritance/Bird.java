@@ -10,4 +10,11 @@ public class Bird implements Animal {
 
     }
 
+
+    public String fly (int numMinutes) {
+
+        return "I'm flying for " + numMinutes + " minutes.";
+
+    }
+
 }
