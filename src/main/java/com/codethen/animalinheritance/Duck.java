@@ -10,11 +10,10 @@ public class Duck extends Bird {
 
     }
 
-    @Override
-    public String fly (int numMinutes) {
 
-        return "I'm flying for " + numMinutes + " minutes.";
-    }
+    // El método fly no es necesario porque ya lo incluye la clase 'padre' Bird.
+
+
 
     public String swim (int numMinutes) {
 
