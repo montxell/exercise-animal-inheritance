@@ -65,6 +65,11 @@ public class Main {
 /*
         // OPCIÓN ALTERNATIVA BUCLE ENHANCED FOR:
 
+        Se debería añadir después de la adición a la lista de animales:
+
+                animalsMakeSound(animals);
+
+
         // All the animals make a sound
 
         private static void animalsMakeSound(List<Animal> animals) {
